@@ -1,0 +1,36 @@
+body {
+    background-color: #f9fbfd; /* Fond bleu très clair */
+    font-family: 'Segoe UI', sans-serif; /* Police moderne sans empattement */
+}
+
+.container {
+    margin-top: 60px;
+    background-color: white; /* Fond blanc pour la zone principale */
+    border-radius: 8px; /* Bords arrondis */
+    padding: 20px; /* Espacement intérieur */
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05); /* Ombre légère pour effet de carte */
+}
+
+.jumbotron {
+    background-color: #03a9f4; /* Bleu vif pour l’en-tête */
+    color: white; /* Texte en blanc sur fond bleu */
+    padding: 2rem; /* Espacement interne large */
+    border-radius: 8px; /* Coins arrondis */
+    margin-bottom: 20px; /* Espace sous l’en-tête */
+}
+
+.btn-primary {
+    background-color: #00bcd4;  /* Bouton principal en cyan */
+    border: none; /* Sans bordure */
+}
+
+.btn-primary:hover {
+    background-color: #4dd0e1;  /* Couleur plus claire au survol */
+}
+
+.bg-info {
+    background-color: #e0f7fa !important; /* Fond bleu clair pour infos */
+    color: #006064; /* Texte bleu foncé */
+    padding: 10px; /* Marge interne */
+    border-radius: 5px; /* Bords arrondis */
+}
